@@ -82,7 +82,17 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
-
+.danger_button{
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.danger_button:hover{
+  background-color: red;
+}
 button:hover {
   background-color: #45a049;
 }

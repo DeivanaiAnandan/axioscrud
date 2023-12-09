@@ -107,7 +107,7 @@ const App = () => {
                 <button onClick={() => handleEdit(user.id)}>Edit</button>
               </td>
               <td>
-                <button onClick={() => handleDelete(user.id)}>Delete</button>
+                <button className="danger_button" onClick={() => handleDelete(user.id)}>Delete</button>
               </td>
             </tr>
           ))}
